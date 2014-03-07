@@ -4,9 +4,9 @@ public interface ServiceStubInt {
 
 	public double add(int l1, int l2);
 	
-	//wzorzec zdalnego wywołania asynchronicznego
+	//wzorzec zdalnego wywołania asynchronicznego - RPC - Remote Procedure Call
 	/*
-	public void add(int l1, int l2, new AsyncService<Double>{
+	public void add(int l1, int l2, new AsyncCallback<Double>(){
 		
 		void onSuccess(Double result){
 			
@@ -15,7 +15,7 @@ public interface ServiceStubInt {
 		void onFailure(Exception error){
 			
 		};
-	}) 
+	}); 
 	*/
 	
 }
